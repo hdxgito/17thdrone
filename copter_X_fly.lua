@@ -1,4 +1,5 @@
--- This script makes the drone go forward and backward at a defined distance and number of times.
+-- このスクリプトは、ドローンが指定した高度で指定した距離を前後左右に移動するものです。
+-- アクションごとステージを区切り、終わると次のステージに移行します。
 -- 各ステージは:
 -- -1) 機首の向きを変えないようにするため、WP_YAW_BEHAVIOR の値を 0　に設定
 -- 0) Guided modeに変更
